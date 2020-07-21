@@ -1,0 +1,248 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.bg-custom{
+    background-color: #171516;
+}
+
+.bg-order{
+    background-color: #169158;
+    margin-top: -15px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 0 0 0 20px;
+}
+
+.bg-order:hover{
+    background-color: #126e43;
+}
+
+.hero{
+    margin-bottom: 50px;
+}
+.header-image{
+    width: 500px;
+}
+
+.header-text{
+    padding: 50px;
+}
+
+.header-text h2{
+    font-weight: bold;
+}
+
+.header-text p{
+    font-size: 20px;
+}
+
+.btn-details{
+    background-color: #169158;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.btn-details:hover{
+    background-color: #126e43;
+    color: white;
+}
+
+.custom-border{
+    padding: 0;
+    border: 0.5px solid #171516;
+    opacity: 0.2;
+    margin-top: 100px;
+}
+
+.btn-order{
+    background-color: #169158;
+    color: white;
+}
+
+.btn-order:hover{
+    background-color: #126e43;
+    color: white;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 14px;
+}
+.variant{
+    margin-top: 100px;
+}
+.price{
+    width: 300px;
+    height: 400px;
+    border-radius: 0 0 30px 0;
+    background-color: #171516;
+    color: white;
+}
+
+.normal{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.diskon{
+    font-weight: 600;
+}
+
+.reason{
+    height: max-content;
+    background-color: gainsboro;
+}
+
+.list-reason{
+    padding-left: 30px;
+}
+
+.product img{
+    width: 70%;
+    border-radius: 0 0 20px 0;
+    transition: transform 0.3s;
+}
+
+.product img:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+.down img{
+    border: 1px solid gray;
+    margin-top: 50px;
+}
+
+.kelebihan, .spesifikasi{
+    margin-left: 20px;
+    background-color: #169158;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0 20px 20px 20px;
+}
+
+.kelebihan:hover, .spesifikasi:hover{
+    cursor: pointer;
+}
+
+.kelebihan li{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.spesifikasi li{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.testimoni{
+    height: max-content;
+    background-color: gainsboro;
+    margin-top: 100px;
+}
+
+.test{
+    width: 120px;
+}
+.subtesti{
+    margin-top: 30px;
+    width: 80px;
+}
+
+.testi-text{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.footer{
+    background-color: #171516;
+    color: #169158;
+    padding-left: 100px;
+}
+
+.footer h6{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footer span{
+    color: white;
+    margin-right: 10px;
+    font-size: 40px;
+    opacity: 0.7;
+}
+
+.footer span:hover{
+    cursor: pointer;
+}
+.copyright{
+    margin-top: 70px;
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-left: -30px;
+    opacity: 0.6;
+}
+
+@media (max-width: 660px){
+    .header-text{
+        margin-top: 40px;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .price{
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+    .text-variasi{
+        margin-top: 30px;
+        margin-left: -100px;
+    }
+    .variant{
+        padding-left: 110px;
+    }
+
+    .list-reason{
+        margin-left: 100px;
+    }
+    .product img{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .kelebihan{
+        margin-top: -50px;
+        margin-left: 110px;
+    }
+    .spesifikasi{
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    .nothing{
+        display: none;
+    }
+    .custom-border{
+        margin-top: 50px;
+    }
+    .testimoni-card{
+        margin-left: 70px;
+    }
+    .footer-us{
+        margin-left: 50px;
+    }
+    .footer h5{
+        margin-top: 20px;
+    }
+
+}
